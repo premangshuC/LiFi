@@ -21,6 +21,9 @@ Version 2
 	-> Successfully transmitted a single data
 	-> Some errors in code --- NEED TO FIX THAT!!!
 	-> SOME errors in connection for Li-Fi transmission ---- NEED TO FIX THAT!!
+	-> Added lifi.txt -- This program has run successfully with sending an integer value and receiving another integer value
+	-> Added Data Transmitter code. Compiled fine. No output from Arduino.
+	---- Modification needed for code.
 	
 
 
