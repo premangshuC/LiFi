@@ -14,6 +14,14 @@ Version 1
 	
 Version 2
 	-> Including Arduino UNO ATMEGA32 in the project
+	
+	-> Completed Connection of Arduino with LEDs
+	-> Completed Connection of Arduino with LDR
+	-> Successfully blinked LEDs
+	-> Successfully transmitted a single data
+	-> Some errors in code --- NEED TO FIX THAT!!!
+	-> SOME errors in connection for Li-Fi transmission ---- NEED TO FIX THAT!!
+	
 
 
 
