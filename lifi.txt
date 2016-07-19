@@ -1,0 +1,60 @@
+int sensorPin=A0;
+int sensorValue=0;
+int light=0;
+int i=0;
+int d[32];
+int temp=1;
+int k=0;
+int add=0;
+int a=1001;
+void setup()
+{
+	pinMode(13,OUTPUT);
+	Serial.begin(9600);
+	Serial.println(sensorPin);
+	int b;
+	while(a!=0)
+	{
+		b=a%10;
+		a=a/2;
+		if(b==1)
+		{
+			digitalWrite(13,HIGH);
+			delay(2);	
+			sensorValue=analogRead(sensorPin);
+			d[i]=sensorValue;
+		}
+		else
+		{
+			digitalWrite(13,LOW);
+			delay(2);	
+			sensorValue=analogRead(sensorPin);
+			d[i]=sensorValue;
+		}
+		i++;
+	}
+	i--;
+		
+	while(i>=0)
+	{
+		if(d[i]>=75 && d[i]<700)
+		{
+			k=i;
+			while(k!=0)
+			{
+				temp=temp*2;
+				k--;
+			}
+			add=add+temp;
+			temp=1;
+		}
+		i--;
+	}
+	Serial.println(add);
+	digitalWrite(13,LOW);
+}
+void loop()
+{
+}
+
+	
