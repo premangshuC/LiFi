@@ -19,11 +19,9 @@ Version 2
 	-> Completed Connection of Arduino with LDR
 	-> Successfully blinked LEDs
 	-> Successfully transmitted a single data
-	-> Some errors in code --- NEED TO FIX THAT!!!
-	-> SOME errors in connection for Li-Fi transmission ---- NEED TO FIX THAT!!
-	-> Added lifi.txt -- This program has run successfully with sending an integer value and receiving another integer value
-	-> Added Data Transmitter code. Compiled fine. No output from Arduino.
-	---- Modification needed for code.
+	-> Sucessfully blinked LEDs via transmission of data from contents of a text file on disk
+	-> Used processing3.1.1 (Used Java code here) with Arduino to transmit data
+	
 	
 
 
