@@ -1,4 +1,4 @@
-##  Project work by Premangshu Chanda, Shubham Chatterjee, Asoke Nath
+##  Project work by Premangshu Chanda, Pallab Mukherjee, Shubham Chatterjee, Asoke Nath
 
 The aim of the project is to be able to transfer data using LEDs. The technique is called Li-Fi technology.
 
