@@ -22,10 +22,14 @@ Version 2
 	-> Sucessfully blinked LEDs via transmission of data from contents of a text file on disk
 	-> Used processing3.1.1 (Used Java code here) with Arduino to transmit data
 	
+Version 3
 	## Final Stage of Project ###
 	###  Aim is to be able to transfer any kind of data	###
 	-> Implenetation in progress: Use USB cable to transfer data to LED sources on transmission end and receive data from solar cell to receiver end 
-	## Problems encountered at the moment: Unable to access Ports after disintegrating USB cable to respective components. ###
+	### USB to LED Data transmision problem solved.
+		Planning of Serial data (Universal) transfer completed.
+		To implement: Serial data transfer from a host(Computer) to LED and receive the data from LED to some other host. 
+	###
 	
 	
 
