@@ -1,4 +1,4 @@
-##  Project work by Premangshu Chanda, Shubham Chatterjee, Asoke Nath
+##  Project work by Premangshu Chanda, Shubham Chatterjee, Asoke Nath, Pallab Mukherjee
 
 The aim of the project is to be able to transfer data using LEDs. The technique is called Li-Fi technology.
 
@@ -24,12 +24,15 @@ Version 2
 	
 Version 3
 	## Final Stage of Project ###
-	###  Aim is to be able to transfer any kind of data	###
-	-> Implenetation in progress: Use USB cable to transfer data to LED sources on transmission end and receive data from solar cell to receiver end 
-	### USB to LED Data transmision problem solved.
-		Planning of Serial data (Universal) transfer completed.
-		To implement: Serial data transfer from a host(Computer) to LED and receive the data from LED to some other host. 
-	###
+	### Aim is to be able to transfer any kind of data	###
+	-> USB to LED Data transmision problem solved.
+	-> Successfully completed Receiver end of the Li-Fi ( modifying cyhex's flashCom)
+	-> Suceessfully completed Hardware setup of the Transceiver - Receiver
+	-> Testing of Data transmission data using light and receiving it ; Successfully
+	
+	### Sorted the Versions Groupwise into separate folders
+	### To modify: Transmission end to send controlled data by blinking of LEDs
+	### To modify; Hardware setup to display received data in human-readable format
 	
 	
 
