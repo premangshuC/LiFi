@@ -30,7 +30,7 @@ Version 3
 	-> Suceessfully completed Hardware setup of the Transceiver - Receiver
 	-> Testing of Data transmission data using light and receiving it ; Successfully
 	
-	### Sorted the Versions Groupwise into separate folders
+	### Sorted the Versions Groupwise into separate folders; LiFi Audio Transmission, LiFi textReader, LiFi UDTR(Universal Data Transmision & Receiving)
 	### To modify: Transmission end to send controlled data by blinking of LEDs
 	### To modify; Hardware setup to display received data in human-readable format
 	
