@@ -33,7 +33,10 @@ Version 3
 	
 	### Sorted the Versions Groupwise into separate folders; LiFi Audio Transmission, LiFi textReader, LiFi UDTR(Universal Data Transmision & Receiving)
 	### To modify: Transmission end to send controlled data by blinking of LEDs
-	### To modify; Hardware setup to display received data in human-readable format
+	### To modify; Hardware setup to display received data in human-readable format..
+	
+	--> Connect A5(Input of Arduino) to GND of the solar cell.. 
+	--> Connect PWR of solar cell to GND of Arduino board..
 	
 	
 	
