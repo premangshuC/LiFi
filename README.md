@@ -39,7 +39,7 @@ Version 3
 	--> Connect PWR of solar cell to GND of Arduino board..
 	
 	
-	
+Debugging the decoder fault
 	
 
 
